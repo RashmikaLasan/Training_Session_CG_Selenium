@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [softwaretestingmaterial]">
+  <parameter name="UserName" value="Lasan"/>
+  <parameter name="BookName" value="Speaking JavaScript"/>
+  <parameter name="Password" value="Codegen@123"/>
+  <test name="testngTest(failed)">
+    <parameter name="UserName" value="Lasan"/>
+    <parameter name="BookName" value="Speaking JavaScript"/>
+    <parameter name="Password" value="Codegen@123"/>
+    <classes>
+      <class name="FifthTask.BookStore">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="safterSuite"/>
+          <include name="LoginUser"/>
+          <include name="LoginUser"/>
+          <include name="CollectionAdd"/>
+        </methods>
+      </class> <!-- FifthTask.BookStore -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [softwaretestingmaterial] -->

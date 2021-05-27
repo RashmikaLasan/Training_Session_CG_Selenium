@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="softwaretestingmaterial" duration-ms="36452" started-at="2020-12-09T10:16:14Z" finished-at="2020-12-09T10:16:51Z">
+    <groups>
+    </groups>
+    <test name="testngTest" duration-ms="36452" started-at="2020-12-09T10:16:14Z" finished-at="2020-12-09T10:16:51Z">
+      <class name="FifthTask.BookStore">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:FifthTask.BookStore@d7b1517]" name="beforeTest" is-config="true" duration-ms="87221" started-at="2020-12-09T15:44:47Z" finished-at="2020-12-09T15:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="LoginUser(java.lang.String, java.lang.String)[pri:0, instance:FifthTask.BookStore@d7b1517]" name="LoginUser" duration-ms="8818" started-at="2020-12-09T15:46:14Z" finished-at="2020-12-09T15:46:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lasan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Codegen@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+        <test-method status="PASS" signature="LoginUser(java.lang.String)[pri:0, instance:FifthTask.BookStore@d7b1517]" name="LoginUser" is-config="true" duration-ms="9795" started-at="2020-12-09T15:46:23Z" finished-at="2020-12-09T15:46:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Speaking JavaScript]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+        <test-method status="PASS" signature="CollectionAdd()[pri:0, instance:FifthTask.BookStore@d7b1517]" name="CollectionAdd" is-config="true" duration-ms="17792" started-at="2020-12-09T15:46:33Z" finished-at="2020-12-09T15:46:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CollectionAdd -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:FifthTask.BookStore@d7b1517]" name="afterSuite" is-config="true" duration-ms="1689" started-at="2020-12-09T15:46:51Z" finished-at="2020-12-09T15:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- FifthTask.BookStore -->
+    </test> <!-- testngTest -->
+  </suite> <!-- softwaretestingmaterial -->
+</testng-results>

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="softwaretestingmaterial">
+    <test name="testngTest">
+        <parameter name="UserName" value="Lasan"></parameter>
+        <parameter name="Password" value="Codegen@123"></parameter>
+        <parameter name="BookName" value="Speaking JavaScript"></parameter>
+        <classes>
+            <class name="FifthTask.BookStore" />
+        </classes>
+    </test>
+</suite>
